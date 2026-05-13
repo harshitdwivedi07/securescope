@@ -126,11 +126,11 @@ export default function Report({ report, onBack }) {
       doc.setPage(p);
       doc.setFontSize(8);
       doc.setTextColor(0, 0, 0);
-      doc.text(`SecureScope — OWASP Security Audit`, 14, 290);
+      doc.text(`SECURE-ED!! — OWASP Security Audit`, 14, 290);
       doc.text(`Page ${p} of ${totalPages}`, pageWidth - 14, 290, { align: "right" });
     }
 
-    doc.save(`securescope-report-${Date.now()}.pdf`);
+    doc.save(`SECURE-ED!!-report-${Date.now()}.pdf`);
   };
   return (
     <div className={styles.page}>
@@ -138,7 +138,7 @@ export default function Report({ report, onBack }) {
         <button className={styles.backBtn} onClick={onBack}>← new audit</button>
         <div className={styles.logo}>
           <span style={{ color: "var(--accent)" }}>⬡</span>
-          <span className={styles.logoText}>SecureScope</span>
+          <span className={styles.logoText}>SECURE-ED!!</span>
         </div>
         <button className={styles.exportBtn} onClick={handleExport}>EXPORT PDF ↓</button>
       </header>

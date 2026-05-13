@@ -78,7 +78,7 @@ export default function Home({ onReport }) {
   return (
     <div className={styles.page}>
       <div className={styles.topBar}>
-        <div className={styles.logo}>SECURESCOPE</div>
+        <div className={styles.logo}>SECURE-ED!!</div>
         <div className={styles.version}>// Editorr</div>
       </div>
 
