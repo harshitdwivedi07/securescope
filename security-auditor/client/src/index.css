@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --bg: #0d0000;
+  --bg-card: #110000;
+  --bg-hover: #1a0000;
+  --border: #2a0a0a;
+  --border-bright: #4a1010;
+  --text: #e8d0d0;
+  --text-muted: #7a4040;
+  --text-dim: #3a1515;
+  --accent: #ff1a1a;
+  --accent-dim: rgba(255, 26, 26, 0.06);
+  --accent-border: rgba(255, 26, 26, 0.3);
+  --critical: #ff2020;
+  --critical-bg: rgba(255, 32, 32, 0.1);
+  --high: #ff8800;
+  --high-bg: rgba(255, 136, 0, 0.1);
+  --medium: #ffcc00;
+  --medium-bg: rgba(255, 204, 0, 0.08);
+  --low: #4488ff;
+  --low-bg: rgba(68, 136, 255, 0.08);
+  --info: #886060;
+  --info-bg: rgba(136, 96, 96, 0.08);
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-mono: 'Share Tech Mono', monospace;
+  --scan-line: repeating-linear-gradient(0deg, transparent, transparent 2px,
+      rgba(255, 0, 0, 0.015) 2px, rgba(255, 0, 0, 0.015) 4px);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  background-image: var(--scan-line);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-bright);
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-mono);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
