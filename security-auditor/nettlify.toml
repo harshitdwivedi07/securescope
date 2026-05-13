@@ -1,0 +1,4 @@
+[build]
+  base = "security-auditor/client"
+  command = "npm run build"
+  publish = "security-auditor/client/dist"
