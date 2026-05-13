@@ -79,7 +79,7 @@ export default function Home({ onReport }) {
     <div className={styles.page}>
       <div className={styles.topBar}>
         <div className={styles.logo}>SECURESCOPE</div>
-        <div className={styles.version}>// v1.0.0 · OWASP AUDITOR</div>
+        <div className={styles.version}>// Editorr</div>
       </div>
 
       <main className={styles.main}>
